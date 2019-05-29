@@ -31,7 +31,7 @@ $page-width: 1000px;
     overflow-x: hidden;
     min-height: 100vh;
     max-width: $page-width;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     padding: {
       top: 80px;
       // bottom: 25px;
@@ -53,14 +53,13 @@ $page-width: 1000px;
         grid-column: 2 / -2;
       }
       &.pattisjokkiMenu__Page--Dryck {
-        @media only screen and (max-width: 900px) {
-          grid-column: 2 / -2;
-        }
+        grid-column: 2 / -2;
       }
     }
     p {
       letter-spacing: 1px;
       line-height: 25px;
+      font-size: 16px;
     }
     h5 {
       letter-spacing: 2px;
@@ -208,6 +207,7 @@ $page-width: 1000px;
     }
     .menuItem__price {
       font-size: 20px;
+      margin-top: 20px;
     }
     .menuItem__recommendedDrink {
       font-size: 15px;
