@@ -16,7 +16,8 @@ $page-width: 1000px;
 
 /* All MenuPage content */
 .page-id-5576,
-.page-id-5908 {
+.page-id-5908,
+.page-id-INSERT-HERE {
   @media only screen and (min-width: $page-width) {
     background: {
       image: url("./images/paperBody.jpg");
@@ -382,6 +383,20 @@ $page-width: 1000px;
       }
       .footerImage5 {
         grid-column: 5 / span 1;
+      }
+    }
+  }
+}
+.page-id-INSERT-HERE {
+  .pattisjokkiMenu__FooterInfo {
+    @media only screen and (max-width: 625px) {
+      p {
+        span {
+          display: none;
+        }
+        &:after {
+          content: "For more info about our eco-friendly kitchen, click the icons below" !important;
+        }
       }
     }
   }
