@@ -18,14 +18,14 @@ $page-width: 1000px;
 .page-id-5576,
 .page-id-5908,
 .page-id-INSERT-HERE {
-  @media only screen and (min-width: $page-width) {
-    background: {
-      image: url("./images/paperBody.jpg");
-      size: 100vw auto;
-      repeat: repeat;
-      attachment: fixed;
-    }
+  background: {
+    image: url("./images/paperBody.jpg");
+    size: 100vw auto;
+    repeat: repeat;
+    attachment: fixed;
   }
+  // @media only screen and (min-width: $page-width) {
+  // }
   margin: 0;
 
   .pattisjokkiMenu__Wrapper {

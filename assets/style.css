@@ -17,19 +17,11 @@
 .page-id-5576,
 .page-id-5908,
 .page-id-INSERT-HERE {
+  background-image: url("./images/paperBody.jpg");
+  background-size: 100vw auto;
+  background-repeat: repeat;
+  background-attachment: fixed;
   margin: 0;
-}
-
-@media only screen and (min-width: 1000px) {
-  /* line 18, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan-allaSidor/assets/sass/style.scss */
-  .page-id-5576,
-  .page-id-5908,
-  .page-id-INSERT-HERE {
-    background-image: url("./images/paperBody.jpg");
-    background-size: 100vw auto;
-    background-repeat: repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* line 31, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan-allaSidor/assets/sass/style.scss */
