@@ -17,7 +17,8 @@ $page-width: 1000px;
 /* All MenuPage content */
 .page-id-5576,
 .page-id-5908,
-.page-id-INSERT-HERE {
+.page-id-INSERT-HERE,
+.page-id-INSERT-HERE-FOOD {
   background: {
     image: url("./images/paperBody.jpg");
     size: 100vw auto;
@@ -387,7 +388,8 @@ $page-width: 1000px;
     }
   }
 }
-.page-id-INSERT-HERE {
+.page-id-INSERT-HERE,
+.page-id-INSERT-HERE-FOOD {
   .pattisjokkiMenu__FooterInfo {
     @media only screen and (max-width: 625px) {
       p {
