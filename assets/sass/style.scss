@@ -17,8 +17,8 @@ $page-width: 1000px;
 /* All MenuPage content */
 .page-id-5576,
 .page-id-5908,
-.page-id-INSERT-HERE,
-.page-id-INSERT-HERE-FOOD {
+.page-id-6251,
+.page-id-6253 {
   background: {
     image: url("./images/paperBody.jpg");
     size: 100vw auto;
@@ -30,6 +30,8 @@ $page-width: 1000px;
   margin: 0;
 
   .pattisjokkiMenu__Wrapper {
+    -webkit-box-shadow: 0px 20px 50px 20px #888888;
+    box-shadow: 0px 20px 50px 20px #888888;
     overflow-x: hidden;
     min-height: 100vh;
     max-width: $page-width;
@@ -40,6 +42,9 @@ $page-width: 1000px;
     }
     @media only screen and (max-width: 625px) {
       padding-top: 50px;
+      margin-top: 0px;
+      -webkit-box-shadow: none;
+              box-shadow: none;
     }
     background: {
       image: url("./images/paperWrapper.jpg");
@@ -273,7 +278,7 @@ $page-width: 1000px;
           top: 0px;
         }
         @media only screen and (max-width: 625px) {
-          p {
+          .pattisjokkiMenu__FooterIntro {
             span {
               display: none;
             }
@@ -388,11 +393,11 @@ $page-width: 1000px;
     }
   }
 }
-.page-id-INSERT-HERE,
-.page-id-INSERT-HERE-FOOD {
+.page-id-6251,
+.page-id-6253 {
   .pattisjokkiMenu__FooterInfo {
     @media only screen and (max-width: 625px) {
-      p {
+      .pattisjokkiMenu__FooterIntro {
         span {
           display: none;
         }
